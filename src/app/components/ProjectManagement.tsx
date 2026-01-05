@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { Checkbox } from "./ui/checkbox";
 import { Plus, Edit, Trash2, FileText } from "lucide-react";
 import { toast } from "sonner";
-import { projectId, publicAnonKey } from "../../utils/supabase/info";
+import { projectId, publicAnonKey } from "@/utils/supabase/client";
 import { TaskManagement } from "./TaskManagement";
 
 interface Project {
