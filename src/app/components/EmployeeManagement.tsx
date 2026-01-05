@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 import { Plus, Edit, Trash2, UserX, FileText, Eye } from "lucide-react";
 import { toast } from "sonner";
-import { projectId, publicAnonKey } from "../../utils/supabase/info";
+import { projectId, publicAnonKey } from "@/utils/supabase/client";
 
 interface Employee {
   nip: string;
